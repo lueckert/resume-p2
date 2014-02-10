@@ -1,0 +1,147 @@
+/* Your Website Styles */
+body {
+	background: url("../img/bg.png");
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 50px;
+}
+
+
+
+/*box*/
+
+}
+.grid_4 {
+	margin-right: 20px;
+	padding-right: 20px;
+	}
+
+.alpha {
+	margin-right: 0px;
+}
+
+.omega {
+	margin-left: 0px;
+}	
+
+
+.contact {
+	text-align: center;
+}
+
+
+.links {
+	text-align: center;
+	margin-top: 0px;
+	padding: 0px;
+
+}
+
+.font {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+/*section*/
+article {
+	background: white;
+	margin: 10px 10px 10px 20px;
+	padding: 150px 50px 50px 100px;
+	
+}
+
+header {
+	background: rgba(247,66,60, 0.9);
+ 	position: fixed;
+    margin: 0 10px 0 10px;
+    padding: 0 90px 0 60px;
+
+ 
+
+}
+
+footer {
+	text-align: center;
+	padding-left: 160px;
+	color: white;
+	font-family: 'open-sans', sans-serif;
+	font-weight: 300;
+}
+
+ul {
+	float: right;
+}
+
+
+nav li {
+	float: left;	
+	list-style: none;
+	margin: 0 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #3cf7a0;
+}
+
+p {
+	margin-bottom: 0;
+}
+footer p {
+	margin-bottom: 0;
+	margin-right: 150px;
+}
+
+/*link states*/
+nav a:link {
+	color: #3cf7a0;
+}
+
+nav a:visited {
+	color: #069352;
+}
+
+/*hover state*/
+nav a:hover,
+nav a:active {
+	background: #fbfbfb;
+	margin: 0;
+	padding: 10px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+
+}
+
+/*advanced selection*/
+
+.resources {
+	text-align: right;	
+}
+/*transitions*/
+#transition-timing {
+  width: 300px;
+}
+
+#transition-timing div {
+  width: 50px;
+  margin: 8px 0;
+  padding: 8px;
+  color: white;
+  background-color: #3c94f7;
+  text-align: right;
+  border-radius: 8px;
+}
+
+
+
+#transition-timing:hover div {
+  width: 300px;
+}
+
+
+#transition-timing div.ease {
+  -webkit-transition: 3s ease;
+}
+
